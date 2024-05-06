@@ -18,7 +18,7 @@ int tribonacci(int n) {
     return v.back() ;
 }
 
-int main(){
+void main(){
     cout << tribonacci(25);
     return 0 ;
 }

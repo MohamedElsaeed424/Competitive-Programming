@@ -18,7 +18,7 @@ ListNode* middleNode(ListNode* head) {
     }
     return head ;
 }
-int main(){
+void main(){
 
     ListNode * a = new ListNode(1); ListNode * n =a ;
 //    a->next = new ListNode(1) ;a = a->next;

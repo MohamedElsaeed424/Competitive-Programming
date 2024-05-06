@@ -15,7 +15,7 @@ int reverse(int x) {
     return static_cast<int>(res);
 }
 
-int main(){
+void main(){
     cout << reverse(1534236469);
     return 0 ;
 }

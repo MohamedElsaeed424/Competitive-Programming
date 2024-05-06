@@ -25,7 +25,7 @@ vector<int> pathOfClimbingStairs(vector<int>& cost) {
     return climbingPath ;
 }
 
-int main(){
+void main(){
 //    vector<int>a = {10,15,20} ;
 //    vector<int>a = {1,100,1,1,1,100,1,1,100,1} ;
 //    vector<int>a = {0,3,2,4};

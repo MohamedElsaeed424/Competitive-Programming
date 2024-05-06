@@ -20,7 +20,7 @@ vector<vector<int>> generate(int numRows) {
 }
 
 
-int main(){
+void main(){
     vector<vector<int>>a = generate(5) ;
     for (int i = 0; i < a.size(); ++i) {
         for (int j = 0; j <a[i].size() ; ++j) {

@@ -56,6 +56,6 @@ using namespace std ;int romanToInt(string s) {
     }
     return sum;
 }
-int main(){
+void main(){
     cout << romanToInt("III");
 }

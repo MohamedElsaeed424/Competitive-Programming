@@ -20,7 +20,7 @@ vector<int> plusOne(vector<int>& digits) {
     digits.push_back(0);
     return digits;
 }
-int main(){
+void main(){
 //    vector<int> nums = {9} ;
 //    vector<int> nums = {1,2,3} ;
     vector<int> nums = {8,9,9,9} ;

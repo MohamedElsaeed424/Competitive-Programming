@@ -15,7 +15,7 @@ int lengthOfLastWord(string s) {
     return ans.back().size();
 }
 
-int main(){
+void main(){
     cout << lengthOfLastWord("   fly me   to   the moon  ");
     return 0 ;
 }

@@ -15,7 +15,7 @@ int minPathSum(vector<vector<int>>& grid) {
     return dp[0][0];
 }
 
-int main(){
+void main(){
     vector<vector<int>>a ={{1,2},{5,6},{1,1}} ;
     cout << minPathSum(a);
     return 0 ;

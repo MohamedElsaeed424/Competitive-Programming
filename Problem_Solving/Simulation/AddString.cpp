@@ -24,7 +24,7 @@ string addStrings(string num1, string num2) {
     }
     return res;
 }
-int main(){
+void main(){
     cout << addStrings("1999","1");
     return 0 ;
 }

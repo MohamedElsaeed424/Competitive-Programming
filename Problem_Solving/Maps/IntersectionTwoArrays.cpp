@@ -21,7 +21,7 @@ vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
     return ans ;
 }
 
-int main(){
+void main(){
     vector<int>num1 ={4,9,5};
     vector<int>num2 ={9,4,9,8,4};
     vector<int>ans = intersection(num1,num2);

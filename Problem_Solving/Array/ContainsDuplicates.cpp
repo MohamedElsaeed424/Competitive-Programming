@@ -11,7 +11,7 @@ bool containsDuplicate(vector<int>& nums) {
     }
     return set.size() != nums.size();
 }
-int main(){
+void main(){
     vector<int>nums ={1,2,3,};
     cout << containsDuplicate(nums);
 }

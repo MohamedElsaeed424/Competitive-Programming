@@ -28,7 +28,7 @@ public:
         cout << endl;
     }
 };
-int main(){
+void main(){
     ProductOfNumbers productOfNumbers ;
      productOfNumbers.add(3);         // [3]
      productOfNumbers.add(0);         // [3,0]

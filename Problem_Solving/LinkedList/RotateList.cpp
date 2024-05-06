@@ -36,7 +36,7 @@ ListNode* rotateRight(ListNode* head, int k) {
     return ans ;
 }
 
-int main(){
+void main(){
     ListNode * a = new ListNode(1);
     ListNode * n =a ;
     a->next = new ListNode(2) ;a = a->next;

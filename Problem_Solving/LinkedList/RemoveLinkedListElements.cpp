@@ -25,7 +25,7 @@ ListNode* removeElements(ListNode* head, int val) {
     return curHead->next ;
 }
 
-int main(){
+void main(){
     ListNode * a = new ListNode(1); ListNode * n =a ;
     a->next = new ListNode(1) ;a = a->next;
     a->next = new ListNode(1) ;a = a->next;

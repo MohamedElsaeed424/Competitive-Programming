@@ -40,7 +40,7 @@ public:
 int RandomizedSet::i = 0;
 
 
-int main() {
+void main() {
     RandomizedSet r;
     cout << r.insert(1) << endl;
     cout << r.remove(2) << endl;

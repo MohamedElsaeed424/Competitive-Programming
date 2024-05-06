@@ -33,7 +33,7 @@ int strStr(string haystack, string needle) {
 //    }
 //    return -1;
 //}
-int main(){
+void main(){
     cout << strStr("a","a");
     return 0 ;
 }

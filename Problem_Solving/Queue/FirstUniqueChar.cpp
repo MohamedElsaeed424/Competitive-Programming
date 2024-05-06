@@ -15,7 +15,7 @@ int firstUniqChar(string s) {
     return -1 ;
 }
 
-int main(){
+void main(){
     cout << firstUniqChar("aadadaad") ;
     return 0 ;
 }

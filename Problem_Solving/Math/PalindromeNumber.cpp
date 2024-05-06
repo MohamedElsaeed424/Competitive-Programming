@@ -15,7 +15,7 @@ bool isPalindrome(int x) {
     return y == z ;
 }
 
-int main(){
+void main(){
     cout << isPalindrome(1234567899);
     return 0 ;
 }

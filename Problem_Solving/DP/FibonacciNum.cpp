@@ -15,7 +15,7 @@ int fib(int n) {
     return v.back() ;
 }
 
-int main(){
+void main(){
     cout << fib(3);
     return 0 ;
 }

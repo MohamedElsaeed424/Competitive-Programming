@@ -48,7 +48,7 @@ public:
     }
 };
 
-int main(){
+void main(){
     MyCircularQueue q = *new MyCircularQueue(3);
     cout << q.enQueue(1) << endl ;
     cout << q.enQueue(2)<< endl ;

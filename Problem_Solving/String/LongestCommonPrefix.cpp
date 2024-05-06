@@ -32,7 +32,7 @@ string longestCommonPrefix2(vector<string>& strs) {
     return ans ;
 }
 
-int main(){
+void main(){
     vector<string > a ={"flower","flow","flight"} ;
     cout << longestCommonPrefix(a);
 }

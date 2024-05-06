@@ -18,7 +18,7 @@ int singleNumber(vector<int>& nums) {
     return -1;
 }
 
-int main(){
+void main(){
     vector<int>nu = {-1};
     cout << singleNumber(nu);
 

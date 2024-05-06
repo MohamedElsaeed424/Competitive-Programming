@@ -33,7 +33,7 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
 }
 // -1 1 1
 
-int main(){
+void main(){
     vector<int>n = {2,0};
     vector<int>m = {1};
     merge(n,1,m,1);

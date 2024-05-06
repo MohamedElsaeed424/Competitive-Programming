@@ -42,7 +42,7 @@ bool isAnagram(string s, string t) {
     return true ;
 }
 
-int main(){
+void main(){
     string s ="rat" ; string t = "car";
     cout << isAnagram(s,t);
     return 0 ;

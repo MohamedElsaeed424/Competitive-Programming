@@ -15,7 +15,7 @@ int removeElement(vector<int>& nums, int val) {
 
 
 
-int main(){
+void main(){
     vector<int>a={3,2,2,3};
     removeElement(a,3);
     for (int i = 0; i < a.size(); ++i) {

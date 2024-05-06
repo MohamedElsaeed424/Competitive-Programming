@@ -11,7 +11,7 @@ int climbStairs(int n) {
     return ans.back();
 }
 
-int main(){
+void main(){
     cout << climbStairs(5);
     return 0 ;
 }

@@ -33,7 +33,7 @@ vector<string> printVertically(string s) {
     }
     return d;
 }
-int main(){
+void main(){
     vector<string>v = printVertically("TO BE OR NOT TO BE");
     for (int i = 0; i <v.size() ; ++i) {
         cout << v[i] << ',';

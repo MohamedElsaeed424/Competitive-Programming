@@ -34,7 +34,7 @@ string getHint(string secret, string guess) {
     return to_string(b)+"A"+to_string(c)+"B" ;
 }
 
-int main(){
+void main(){
     string s = "1123" ;
     string g = "0111";
     cout << getHint(s,g);

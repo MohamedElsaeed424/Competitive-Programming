@@ -20,7 +20,7 @@ vector<int> getRow(int rowIndex) {
 }
 
 
-int main(){
+void main(){
    vector<int>a = getRow(2) ;
     for (int i = 0; i < a.size(); ++i)
         cout << a[i] << ',' ;
