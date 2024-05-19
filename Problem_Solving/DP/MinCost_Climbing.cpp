@@ -8,8 +8,7 @@ int minCostClimbingStairs(vector<int>& cost) {
     int a = 0 ;
     int b = cost[0];
     for(int i = 2 ; i <= size ; ++i){
-        res =0 ;
-        res +=(cost[i-1]+ min(a , b)) ;
+        res =(cost[i-1]+ min(a , b)) ;
         a =b ;
         b =res ;
     }

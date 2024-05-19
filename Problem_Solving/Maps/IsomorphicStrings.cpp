@@ -12,3 +12,4 @@ bool isIsomorphic(string s, string t) {
     }
     return ss.size() ==tt.size() ;
 }
+    
