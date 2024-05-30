@@ -2,16 +2,23 @@
 #include <vector>
 #include <limits.h>
 #include <iostream>
+#include <set>
+#include <map>
 using namespace std ;
 
+string ArrayChallenge(string strArr[], int arrLength) {
+    map<char,set<char>>map ;
+    for (int i = 0; i < arrLength; ++i) {
+        map[strArr[i][3]].insert(strArr[i][1]);
+    }
+    for (auto pair : map){
+        if(pair.second.size() > 2) return "false";
+    }
+    return "true";
+}
 
-/**
- * 1
- * 3 4
- * 6 5 7
- * 4 1 8 3
- */
 int minimumTotal1(vector<vector<int>>& triangle) {
+
     int sum = 0 ; int j =0 ;
     sum+=triangle[0][0];
     for (int i = 0; i < triangle.size()-1; ++i) {
