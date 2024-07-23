@@ -7,6 +7,12 @@
 using namespace std ;
 
 int main(){
+    string s = "f05d0fe26079be0feb553daa97752725060848e946b1c27c296097b736b73453";
+    string m = "f05d0fe26079be0feb553daa97752725060848e946b1c27c296097b736b73453";
+    for (int i = 0; i < s.length(); ++i) {
+        if(s[i]!=m[i]) {cout<< "false";return 0;}
+    }
+    cout << "true";
     return 0 ;
 }
 
